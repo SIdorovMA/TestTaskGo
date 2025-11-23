@@ -24,29 +24,30 @@
 
 ### Questions
 
-GET /questions/  
+-GET /questions/  
 
-POST /questions/  
+-POST /questions/  
 
-GET /questions/{id}  
+-GET /questions/{id}  
 
-DELETE /questions/{id}
+-DELETE /questions/{id}
 
 
 
 ### Answers
 
-POST /questions/{id}/answers/  
+-POST /questions/{id}/answers/  
 
-GET /answers/{id}  
+-GET /answers/{id}  
 
-DELETE /answers/{id}
+-DELETE /answers/{id}
 
 
 
 ## Запуск
-
+```bash
 docker-compose up --build
+
 
 
 
